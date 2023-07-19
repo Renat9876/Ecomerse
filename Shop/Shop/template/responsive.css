@@ -1,0 +1,64 @@
+@media screen  and (max-width: 1200px) {
+    .foto1  {
+        background-color: green;
+        width: 75%;
+        margin-top: -50%;
+        margin-left: 10%;
+        flex-wrap: wrap;
+        left: 5%;
+        /* position: absolute; */
+        position: relative;
+        margin-top: -75%;
+    }
+    
+    .texno1 {
+        margin-left: 0.5%;  
+    }
+    
+    .iphonegray {
+        border-right: 1px solid gray;
+    }
+     
+     .sale{ 
+        margin-top: -58%;
+        margin-left: 24%;
+        z-index: 1;
+    
+    }
+    .sale1{ 
+        margin-top: -30%;
+        margin-left: 28.3%;
+        z-index: 1;
+    
+    }
+    
+    .sale2{ 
+        margin-top: -28%;
+        margin-left: 69%;
+        z-index: 1;
+    
+    }
+    
+    .list-group {
+     border: none;
+    }
+    .foto  {
+        background-color: white;
+        width: 75%;
+        margin-top: 2.4%;
+        margin-left: 20%;
+        flex-wrap: wrap;
+        /* position: relative; */
+    }
+    .washing1{
+        margin-left: 0.5%;
+    }
+    .foto2  {
+        background-color: white;
+        width: 75%;
+        margin-top: 2.4%;
+        margin-left: 20%;
+        flex-wrap: wrap;
+        /* position: relative; */
+    }
+    }

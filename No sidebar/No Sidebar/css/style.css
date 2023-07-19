@@ -1,0 +1,1411 @@
+* {
+    box-sizing: border-box;
+}
+
+/* yuxaridaki mail hissesi */
+.phone {
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+}
+
+.icon-phone {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.icon-mail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 200px;
+    padding: 10px;
+    margin-top: -60px;
+}
+
+.icon-phone i {
+    padding: 5px;
+}
+
+.icon-mail i {
+    padding: 5px;
+}
+
+.usd {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 50px;
+    margin-top: -60px;
+}
+
+.usd a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* headr metro olan hisse */
+
+
+.headr img {
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.conteiner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* button classi yuxardaki input hissesi */
+
+.headr {
+    position: relative;
+}
+
+.buton {
+    border: none;
+    margin-left: 151px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 150px;
+    margin-top: 30px;
+    height: 50px;
+    background-color: lightgrey;
+    position: absolute;
+}
+
+.dropdown-menu {
+    margin-left: 50px;
+}
+
+.nav-linkk {
+    color: #000000;
+    text-decoration: none;
+    outline: none;
+    margin-left: 13px;
+}
+
+.nav-linkk:hover {
+    color: black;
+}
+
+.items:hover {
+    background-color: #1040ff;
+    color: white;
+}
+
+/* input hissesi */
+
+.input {
+    height: 50px;
+    border: none;
+    width: 300px;
+    border-radius: none;
+    background-color: lightgrey;
+    outline: none;
+    margin-left: 300px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+
+.buton1 {
+    background-color: #1040ff;
+    color: white;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 150px;
+    margin-left: 600px;
+    margin-top: 30px;
+
+}
+
+.buton1:hover {
+    background-color: black;
+}
+
+/* icon hissesi metro */
+.fire {
+    margin-left: 800px;
+    font-size: 30px;
+    color: orange;
+    margin-top: 40px;
+}
+
+.hot {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: -45px;
+    font-size: 20px;
+    margin-right: 60px;
+
+}
+
+.hot:hover {
+    color: #1040ff;
+}
+
+.shadow {
+    border-bottom: 1px solid;
+    color: lightgrey;
+    margin-bottom: 0px;
+}
+
+/* all categories hissesi navbar  */
+
+.collapse ul li {
+    list-style-type: none;
+}
+
+.container-fluid {
+    background-color: white;
+    margin-top: -100px;
+}
+
+
+.fas {
+    color: #1040ff;
+    margin-left: 50px;
+}
+
+.navbarlink {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: -20px;
+}
+
+.item:hover {
+    color: #1040ff;
+    background-color: white;
+}
+
+/* shoes hissesinin ici */
+.shoesin {
+    position: relative;
+}
+
+.main {
+    margin-left: 15.4%;
+    border: 1px solid lightgray;
+    width: 62%;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    margin-top: -5.7%;
+    z-index: 1;
+}
+
+.headd {
+    display: flex;
+    margin-top: 18px;
+    background-color: white;
+
+}
+
+.stove h4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.stove h4:hover {
+    color: #1040ff;
+    cursor: pointer;
+}
+
+.stove {
+    margin-left: 20px;
+}
+
+.stove ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.stove ul li {
+    list-style-type: none;
+    padding: 8px;
+}
+
+.stove ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.stove ul li a:hover {
+    color: #1040ff;
+
+}
+
+/* shoes hissesi */
+.SHOES {
+    margin-left: 100px;
+}
+
+.SHOES h4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.SHOES h4:hover {
+    color: #1040ff;
+    cursor: pointer;
+}
+
+.SHOES ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.SHOES ul li {
+    list-style-type: none;
+    padding: 8px;
+}
+
+.SHOES ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.SHOES ul li a:hover {
+    color: #1040ff;
+
+}
+
+/* rated hissesi */
+
+.RATED {
+    margin-left: 100px;
+}
+
+.RATED h4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.RATED h4:hover {
+    color: #1040ff;
+    cursor: pointer;
+}
+
+.RATED img {
+    width: 100px;
+    height: auto;
+    margin-top: -20px;
+    margin-left: 14px;
+}
+
+
+.boat {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 120px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.mi {
+    text-decoration: none;
+    color: black;
+    margin-left: 120px;
+}
+
+.Ear {
+    text-decoration: line-through;
+    font-weight: normal;
+    margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.ear {
+    opacity: 0.7;
+    cursor: pointer;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 60px;
+}
+
+.discount {
+    color: black;
+    text-decoration: line-through;
+    font-weight: normal;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-bottom: 0px;
+}
+
+.discoun {
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+
+}
+
+/* asaqi hisse shoes */
+.bootom {
+    display: flex;
+    margin-top: -15px;
+}
+
+.march {
+    margin-left: 15px;
+    font-weight: normal;
+}
+
+.march1 {
+    margin-left: 38.5%;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+
+.note img {
+    margin-top: -50px;
+}
+
+.notebook {
+    margin-top: -600px;
+    position: absolute;
+}
+
+/* navbar hissesi all categoriden  sonra */
+.navbar-nav {
+    margin-left: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.navbar-nav a:hover {
+    color: #1040ff;
+    background-color: white;
+}
+
+/* navbarda saq icon olan hisse */
+
+.man {
+    display: flex;
+    position: relative;
+}
+
+/* signin hissesi */
+.colapse:hover {
+
+    color: #1040ff;
+}
+
+.colapse {
+    margin-top: -10px;
+}
+
+.colapse ul li {
+    list-style-type: none;
+}
+
+.downn {
+    margin-left: 71%;
+}
+
+.itemm {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    border-width: 80%;
+}
+
+.itemm:hover {
+    color: #1040ff;
+    background-color: white;
+}
+
+.itemmm:hover {
+    color: #1040ff;
+    background-color: white;
+}
+
+/* cart hissesi */
+.zero {
+    border-radius: 100%;
+    background-color: #1040ff;
+    color: white;
+    outline: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 2%;
+
+}
+
+.zeroo {
+    margin-right: 4%;
+}
+
+.zeroo:hover {
+    color: #1040ff;
+}
+
+.zeroo ul li {
+    list-style-type: none;
+}
+
+.downnn {
+    margin-left: 76%;
+    width: 20%;
+}
+
+.downnn li a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.downnn li a:hover {
+    background-color: white;
+}
+
+.man ul {
+    display: flex;
+}
+
+.man ul li {
+    list-style-type: none;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.man ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.man ul li a:hover {
+    color: #1040ff;
+}
+
+/* head */
+
+.head {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    margin-top: -20px;
+    border: 1px solid lightgray;
+
+}
+
+.navbar-expand-lg {
+    margin-top: 100px;
+}
+
+.sidebar {
+    margin-left: 600px;
+}
+
+.homesidebar a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 600px;
+}
+
+.homesidebar a:hover {
+    color: blue;
+}
+
+/* ikinci section hissesi*/
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.card2 {
+    margin: 20px;
+}
+
+.coment {
+    display: flex;
+    margin: 10px;
+}
+
+.coment a {
+    text-decoration: none;
+    color: gray;
+}
+
+.coment i {
+    color: gray;
+    padding: 10px;
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    margin: 10px;
+    border: none;
+}
+
+button img {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+
+.showw img {
+    width: 570px !important;
+    height: 375px;
+    position: absolute;
+    margin-top: -625px;
+    border: none;
+}
+
+.card-body {
+    position: relative;
+}
+
+.card-img-top img:hover {
+    opacity: 1;
+}
+
+.showw img:hover {
+    color: lightgray;
+    opacity: 0.4;
+}
+
+.showw img {
+    opacity: 0;
+    width: 560px;
+}
+
+.card-img-top {
+    width: 570px;
+    height: 370px;
+}
+
+/* SECTION 3 */
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.card3 {
+    margin: 20px;
+}
+
+.coment-1 {
+    display: flex;
+    margin: 10px;
+}
+
+.coment-1 a {
+    text-decoration: none;
+    color: gray;
+}
+
+.coment-1 i {
+    color: gray;
+    padding: 10px;
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    margin: 10px;
+    border: none;
+}
+
+button img {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+
+.showw-1 img {
+    width: 570px !important;
+    height: 375px;
+    position: absolute;
+    margin-top: -625px;
+    border: none;
+}
+
+.card-body-1 {
+    position: relative;
+}
+
+.card-img-top-1 img:hover {
+    opacity: 1;
+}
+
+.showw-1 img:hover {
+    color: lightgray;
+    opacity: 0.4;
+}
+
+.showw-1 img {
+    opacity: 0;
+    width: 560px;
+}
+
+.card-img-top-1 {
+    width: 570px;
+    height: 370px;
+}
+
+/* SECTION 4 */
+
+.section4 {
+    margin-left: 35px;
+}
+
+.card4 {
+    margin-left: 60px;
+}
+
+.coment-2 {
+    display: flex;
+    margin: 10px;
+}
+
+.coment-2 a {
+    text-decoration: none;
+    color: gray;
+}
+
+.coment-2 a:hover {
+    color: blue;
+}
+
+.coment-1 a:hover {
+    color: blue;
+}
+
+.coment a:hover {
+    color: blue;
+}
+
+.coment-2 i {
+    color: gray;
+    padding: 10px;
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    margin: 10px;
+    border: none;
+}
+
+button img {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+
+.showw-2 img {
+    width: 570px !important;
+    height: 375px;
+    position: absolute;
+    margin-top: -627px !important;
+    border: none;
+}
+
+.card-body-2 {
+    position: relative;
+    width: 570px;
+    height: 255px;
+    border: 1px solid rgb(235, 234, 234);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0.1px 0.1px;
+}
+
+.card-body-1 {
+    position: relative;
+    width: 570px;
+    height: 255px;
+    border: 1px solid rgb(235, 234, 234);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0.1px 0.1px;
+}
+
+.card-body {
+    position: relative;
+    width: 570px;
+    height: 255px;
+    border: 1px solid rgb(235, 234, 234);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0.1px 0.1px;
+}
+
+.card-body-2:hover {
+    box-shadow: 0.3px 0.3px 4px 0.3px;
+    transition: 1s;
+}
+
+.card-body-1:hover {
+    box-shadow: 0.3px 0.3px 4px 0.3px;
+    transition: 1s;
+}
+
+.card-body:hover {
+    box-shadow: 0.3px 0.3px 4px 0.3px;
+    transition: 1s;
+}
+
+.card-img-top-2 img:hover {
+    opacity: 1;
+}
+
+.showw-2 img:hover {
+    color: lightgray;
+    opacity: 0.4;
+}
+
+.showw-2 img {
+    opacity: 0;
+    width: 560px;
+}
+
+.card-img-top-2 {
+    width: 570px;
+    height: 370px;
+}
+
+h5 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+h5:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.bos {
+    border: 1px solid;
+    width: 550px;
+    margin-left: 10px;
+    opacity: 0.1;
+    margin-bottom: 10px;
+}
+
+.positive i {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-left: 4px;
+    margin-top: 3px;
+    padding: 3px;
+}
+
+.positive{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50px;
+    border: 2px solid blue;
+
+
+}
+
+.positive:hover {
+    background-color: blue;
+
+}
+
+.chain i {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-left: 4px;
+    margin-top: 3px;
+    padding: 5px;
+
+
+}
+
+.chain {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: 2px solid blue;
+    margin-right: 10px;
+}
+
+.chain:hover {
+    background-color: blue;
+}
+
+
+.card2 {
+    position: relative;
+}
+
+.card2::before {
+    background-color: rgba(190, 197, 199, 0.9);
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}
+
+.card2:hover::before {
+    opacity: 0.6;
+    width: 570px;
+    height: 370px;
+    transition-duration: 1s;
+
+}
+.card3 {
+    position: relative;
+}
+
+.card3::before {
+    background-color: rgba(190, 197, 199, 0.9);
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}
+
+.card3:hover::before {
+    opacity: 0.6;
+    width: 570px;
+    height: 370px;
+    transition-duration: 1s;
+
+}
+
+
+.card4 {
+    position: relative;
+}
+
+.card4::before {
+    background-color: rgba(190, 197, 199, 0.9);
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}
+
+.card4:hover::before {
+    opacity: 0.6;
+    width: 570px;
+    height: 370px;
+    transition-duration: 1s;
+
+}
+
+
+.showw {
+   opacity: 0;
+    margin-top: 0;
+    width: 0;
+    height: 0;
+    left:0,
+}
+
+.card2:hover .showw {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+
+.showw-1 {
+    opacity: 0;
+     margin-top: 0;
+     width: 0;
+     height: 0;
+     left:0,
+ }
+ 
+ .card3:hover .showw-1 {
+     opacity: 1;
+     transition: 1.5s;
+ }
+
+
+ .showw-2 {
+    opacity: 0;
+     margin-top: 0;
+     width: 0;
+     height: 0;
+     left:0,
+ }
+ 
+ .card4:hover .showw-2 {
+     opacity: 1;
+     transition: 1.5s;
+ }
+
+.all {
+    display: flex;
+    margin-left: 250px;
+    position: absolute;
+    margin-top: -450px;
+    opacity: 1.5;
+    padding: 5px;
+
+}
+
+.showw-2 img:hover {
+    opacity: 0.5;
+}
+
+/* SECTION 5 */
+
+.center {
+    text-align: end;
+    margin-right: 50px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 3px 12px;
+    text-decoration: none;
+    border: none;
+    margin: 0.4px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: blue;
+    color: white;
+}
+
+.one {
+    background-color: blue;
+    color: white !important;
+}
+
+/* fouter  */
+
+.footr {
+    margin-top: 30px;
+    background-color: rgb(243, 243, 243);
+    border-width: 92%;
+    height: 115vh;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+.footr img {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.Lorem {
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+
+.Download {
+    margin-left: 120px;
+    color: black;
+    font-size: 20px;
+    width: 132px;
+    border-bottom: 2px solid blue;
+}
+
+.google img {
+    width: 100px;
+    margin-top: -90px;
+    margin-left: 250px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.app img {
+    width: 100px;
+    height: 33px;
+    border-radius: 5px;
+    margin-top: -170px;
+    margin-left: 360px;
+}
+
+
+.Social {
+    margin-left: 120px;
+    color: black;
+    font-size: 20px;
+    width: 115px;
+    border-bottom: 2px solid blue;
+    margin-top: -50px;
+}
+
+.brend {
+    margin-left: 250px;
+    margin-top: -70px;
+}
+
+.brend i {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 2px 1px;
+    margin: 10px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.brend i:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+.information {
+    margin-left: 40%;
+    margin-top: -25%;
+}
+
+.information ul {
+    margin: 0;
+    padding: 0;
+}
+
+.information ul li {
+    list-style-type: none;
+    padding: 4px;
+}
+
+.information ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.information ul li a:hover {
+    color: #1040ff;
+}
+
+.Category {
+    margin-left: 60%;
+    margin-top: -17.7%;
+}
+
+.Category ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Category ul li {
+    list-style-type: none;
+    padding: 4px;
+
+}
+
+.Category ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Category ul li a:hover {
+    color: #1040ff;
+}
+
+
+
+.ContactUs {
+    margin-left: 78%;
+    margin-top: -21.5%;
+    padding: 20px;
+}
+
+
+.ContactUs h2{
+
+    margin-left: -67px;
+}
+
+.demo {
+    margin-left: -67px;
+}
+
+.demo i {
+    color: #1040ff;
+    font-size: 20px;
+}
+
+.demo a {
+    color: black;
+    text-decoration: none;
+}
+
+.demo a:hover {
+    color: #1040ff;
+
+}
+
+.miami i {
+    color: #1040ff;
+    font-size: 20px;
+}
+
+.miami {
+    margin-left: -65px;
+}
+
+.Call i {
+    color: #1040ff;
+    font-size: 20px;
+}
+
+.Call {
+    margin-left: -60px;
+}
+
+
+
+.shadow1 {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid gray;
+    margin-top: 10%;
+    opacity: 0.1;
+}
+
+.Electronics {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.Electronics ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 13%;
+}
+
+.Electronics ul li {
+    list-style-type: none;
+    margin-top: -45px;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+.Electronics ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Electronics ul li a:hover {
+    color: #1040ff;
+}
+
+.Electronics .ull {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 13.8%;
+}
+
+.Electronics .ull li {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+.Electronics .ull li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Electronics .ull li a:hover {
+    color: #1040ff;
+}
+
+
+
+.Accessories {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.Accessories ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 13%;
+}
+
+.Accessories ul li {
+    list-style-type: none;
+    margin-top: -45px;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+.Accessories ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Accessories ul li a:hover {
+    color: #1040ff;
+}
+
+.Accessories .ull {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 13.8%;
+}
+
+.Accessories .ull li {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+.Accessories .ull li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Accessories .ull li a:hover {
+    color: #1040ff;
+}
+
+
+.shadow2 {
+    width: 92%;
+    border: 1px solid gray;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.1;
+}
+
+
+
+.reserved {
+    margin-top: 10px;
+}
+
+.All {
+    margin-left: 100px;
+}
+
+.reserved ul {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: -90px;
+    margin-right: 4% !important;
+
+}
+
+.reserved ul li {
+    list-style-type: none;
+}
+
+.reserved ul li img {
+    margin-left: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px
+}
+
+
+.arow {
+    margin-left: 91%;
+    border: 4px solid #1040ff;
+    width: 50px;
+    margin-top: -6.2%;
+    border-radius: 10px;
+    border-color: #1040ff;
+    position: sticky;
+    bottom: 10px;
+
+}
+
+.arrow {
+    border-top: 2px solid #1040ff;
+    color: #1040ff;
+    font-weight: 450;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.left-long {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.right-long {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
